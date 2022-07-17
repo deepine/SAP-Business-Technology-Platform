@@ -1,6 +1,6 @@
 BTP 교육 자료입니다.
 
-# Test Mockup RestAPI Server
+# Test Mockup RestAPI Server 실행
 
 npm install
 
