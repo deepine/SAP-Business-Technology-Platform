@@ -1,0 +1,10 @@
+---
+applications:
+  - name: CloudToOnpremiseApp
+    command: node server.js
+    memory: 1024M
+    buildpacks:
+      - nodejs_buildpack
+    services:
+      - CONNECTIVITY_ZYKR_BTP_DEV_01
+      - DESTINATION_ZYKR_BTP_DEV_01
